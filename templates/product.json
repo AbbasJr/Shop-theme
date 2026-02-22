@@ -16,6 +16,12 @@
           "type": "vendor",
           "settings": {}
         },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -28,14 +34,9 @@
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {
             "show_taxes_notice": false
-          }
-        },
-        "rating": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
           }
         },
         "payment_terms": {
@@ -88,10 +89,10 @@
       },
       "block_order": [
         "vendor",
+        "rating",
         "title",
         "badges",
         "price",
-        "rating",
         "payment_terms",
         "separator",
         "liquid_AqrJq4",
