@@ -52,6 +52,18 @@
     "image-link-blocks": {
       "type": "image-link-blocks",
       "blocks": {
+        "item_cMhQdG": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
         "1664424046b00c932c-0": {
           "type": "item",
           "settings": {
@@ -114,6 +126,7 @@
         }
       },
       "block_order": [
+        "item_cMhQdG",
         "1664424046b00c932c-0",
         "1664424046b00c932c-1",
         "1664424046b00c932c-2",
