@@ -14,18 +14,19 @@
       "blocks": {
         "vendor": {
           "type": "vendor",
+          "disabled": true,
           "settings": {}
-        },
-        "rating": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
         },
         "title": {
           "type": "title",
           "settings": {
             "heading_tag": "h3"
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
           }
         },
         "badges": {
@@ -95,8 +96,8 @@
       },
       "block_order": [
         "vendor",
-        "rating",
         "title",
+        "rating",
         "badges",
         "price",
         "payment_terms",
