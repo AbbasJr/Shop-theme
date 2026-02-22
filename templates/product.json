@@ -46,12 +46,6 @@
           "type": "separator",
           "settings": {}
         },
-        "description": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false
-          }
-        },
         "liquid_AqrJq4": {
           "type": "liquid",
           "name": "Benefiques Mobile",
@@ -100,7 +94,6 @@
         "rating",
         "payment_terms",
         "separator",
-        "description",
         "liquid_AqrJq4",
         "liquid_AXpM9k",
         "variant_picker",
