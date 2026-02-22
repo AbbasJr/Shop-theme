@@ -127,6 +127,64 @@
         "input_text_color": ""
       }
     },
+    "accordion_content_4TUyBg": {
+      "type": "accordion-content",
+      "blocks": {
+        "item_mrHp6E": {
+          "type": "item",
+          "settings": {
+            "title": "Qu'y a-t-il dans votre boîte ?",
+            "content": "<p>Chaque coffret <strong>Olnara® Pure Cleaner</strong> contient l'appareil otoscope HD, un lot de 5 embouts interchangeables en silicone médical, un câble de recharge USB-C et un manuel d'utilisation illustré. Tout le nécessaire pour une mise en service immédiate.</p>"
+          }
+        },
+        "item_LcLLcy": {
+          "type": "item",
+          "settings": {
+            "title": "Guide d'utilisation et Fréquence conseillée",
+            "content": "<p>Pour une hygiène optimale, nous recommandons une utilisation une fois par semaine ou toutes les deux semaines selon votre production naturelle de cérumen. </p><p>L'appareil se connecte sans fil à votre smartphone via l'application dédiée (iOS et Android). Il suffit d'allumer l'Olnara® et de sélectionner le réseau Wi-Fi émis par l'appareil pour voir l'image en direct.</p>"
+          }
+        },
+        "item_iPz7BE": {
+          "type": "item",
+          "settings": {
+            "title": "Comment entretenir votre appareil ?",
+            "content": "<p>Pour prévenir toute prolifération bactérienne et garantir une sécurité auditive totale, nous recommandons de <strong>remplacer l’embout en silicone par un nouveau après chaque utilisation</strong>. </p><p>La tête de l'appareil et la lentille de la caméra, quant à elles, peuvent être nettoyées délicatement après chaque usage à l'aide d'une lingette désinfectante ou d'un coton-tige légèrement imbibé d'alcool à 70° pour conserver une clarté d'image optimale.</p>"
+          }
+        },
+        "item_j9yU9q": {
+          "type": "item",
+          "settings": {
+            "title": "Précautions d'usage et Sécurité",
+            "content": "<p>L'<strong>Olnara® Pure cleaner </strong>est un outil de précision. Il ne doit jamais être enfoncé de force dans le conduit. La caméra est là pour vous guider : si vous ressentez une résistance ou une douleur, stoppez le geste. </p><p>Ce produit n'est pas un dispositif médical curatif et ne doit pas être utilisé en cas d'otite active ou de tympan perforé connu.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_mrHp6E",
+        "item_LcLLcy",
+        "item_iPz7BE",
+        "item_j9yU9q"
+      ],
+      "name": "Accordion content",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Bien plus qu'un simple nettoyage.",
+        "content": "<p>Les questions les plus posées sur notre produit</p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -178,6 +236,7 @@
   },
   "order": [
     "main",
+    "accordion_content_4TUyBg",
     "related-products",
     "custom_liquid_mtqW44",
     "custom_liquid_xK7MLf"
