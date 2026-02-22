@@ -170,7 +170,7 @@
         "full_width": true,
         "subheading": "",
         "title": "Bien plus qu'un simple nettoyage.",
-        "content": "<p>Les questions les plus posées sur notre produit</p>",
+        "content": "<p><br/><strong>Olnara® Pure Cleaner </strong>a été conçu pour remplacer définitivement les méthodes archaïques et dangereuses. </p><p>En combinant vision haute définition et douceur médicale, nous offrons à votre foyer une solution de soin durable, sûre et certifiée.<br/><br/></p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
@@ -207,6 +207,63 @@
         "product_card_text_color": ""
       }
     },
+    "multiple_images_with_text_GVt7hW": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_q4ch6W": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/extraire_cerumen.avif",
+            "image_rotation_degrees": 2.5,
+            "subheading": "",
+            "title": "Finis les bouchons !",
+            "content": "<p>Les coton-tiges classiques tassent le cérumen au fond du conduit, créant des bouchons douloureux et une perte d'audition. Grâce à sa caméra intégrée et ses embouts souples, <strong>Olnara® Pure Cleaner</strong> permet de contourner les débris pour les extraire délicatement. </p><p>Retrouvez une clarté auditive immédiate dès la première utilisation.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_LPTQ8t": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Endoscope_en_HD.jpg",
+            "image_rotation_degrees": 1.5,
+            "subheading": "",
+            "title": "Ne risquez plus vos tympans :",
+            "content": "<p>Nettoyer ses oreilles sans rien voir est un danger réel pour votre audition. <strong>Olnara® Pure Cleaner</strong> élimine toute incertitude en diffusant une image HD cristalline directement sur votre smartphone. </p><p>Vous ne devinez plus la position des impuretés : vous naviguez avec une précision totale pour un soin d’une sécurité absolue.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_gdNANm": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/controle_hygiene.avif",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Votre corps mérite une clarté absolue",
+            "content": "<p>Ne laissez plus le doute s'installer sur la propreté de vos oreilles lors de vos interactions sociales. <strong>Olnara® Pure Cleaner</strong> vous permet d'effectuer un check-up complet en quelques secondes. </p><p>C’est l’assurance d’une image impeccable et d'une sensation de fraîcheur que vous pouvez enfin vérifier par vous-même, sur votre écran.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_q4ch6W",
+        "item_LPTQ8t",
+        "item_gdNANm"
+      ],
+      "name": "Multiple images with text",
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "custom_liquid_mtqW44": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -220,17 +277,56 @@
         "text_color": ""
       }
     },
-    "custom_liquid_xK7MLf": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
+    "177180215108589fa8": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_cards_carousel_WKeNV6": {
+          "type": "shopify://apps/judge-me-reviews/blocks/cards_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "show_sample_reviews": true,
+            "reviews_selection": "all",
+            "products": [],
+            "star_rating": "all",
+            "show_review_media": true,
+            "display_order": "media_first",
+            "no_image_fallback": "review_text_only",
+            "max_reviews": 20,
+            "review_length": "medium",
+            "text_size": "medium",
+            "image_ratio": "1",
+            "reviews_shown": 4,
+            "show_reviewer_name": true,
+            "show_product_name": true,
+            "hide_arrows_mobile": true,
+            "arrows_position": "sides",
+            "max_width": 1100,
+            "corner_styling": "soft",
+            "header_text_color": "#000000",
+            "text_color": "#000000",
+            "card_color": "#F9F9F9",
+            "stars_color": "",
+            "arrows_color": "#000000",
+            "transition_speed": 5,
+            "header_text": "Les avis de nos clients !",
+            "show_average_rating": true
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_cards_carousel_WKeNV6"
+      ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "{% comment %}\n\n  ============================================\n\n  CUSTOM LIQUID — Carrousel Avis Clients Photos\n\n  ============================================\n\n  Carrousel horizontal d'avis avec avatar et étoiles.\n\n  Défilement tactile sur mobile.\n\n{% endcomment %}\n\n \n\n<style>\n\n  .reviews-carousel {\n\n    padding: 24px 0;\n\n    margin: 20px 0;\n\n  }\n\n  .reviews-carousel__title {\n\n    font-size: 20px;\n\n    font-weight: 700;\n\n    text-align: center;\n\n    margin-bottom: 20px;\n\n    color: #111827;\n\n  }\n\n  .reviews-carousel__track {\n\n    display: flex;\n\n    gap: 16px;\n\n    overflow-x: auto;\n\n    scroll-snap-type: x mandatory;\n\n    -webkit-overflow-scrolling: touch;\n\n    padding: 4px 16px 16px;\n\n    scrollbar-width: none;\n\n  }\n\n  .reviews-carousel__track::-webkit-scrollbar { display: none; }\n\n  .review-card {\n\n    min-width: 280px;\n\n    max-width: 300px;\n\n    background: #fff;\n\n    border: 1px solid #e5e7eb;\n\n    border-radius: 12px;\n\n    padding: 20px;\n\n    scroll-snap-align: start;\n\n    flex-shrink: 0;\n\n    transition: transform 0.2s;\n\n  }\n\n  .review-card:hover { transform: translateY(-2px); box-shadow: 0 4px 15px rgba(0,0,0,0.06); }\n\n  .review-card__header {\n\n    display: flex;\n\n    align-items: center;\n\n    gap: 10px;\n\n    margin-bottom: 12px;\n\n  }\n\n  .review-card__avatar {\n\n    width: 40px;\n\n    height: 40px;\n\n    border-radius: 50%;\n\n    background: #eff6ff;\n\n    display: flex;\n\n    align-items: center;\n\n    justify-content: center;\n\n    font-weight: 700;\n\n    color: #3b82f6;\n\n    font-size: 16px;\n\n    flex-shrink: 0;\n\n  }\n\n  .review-card__name {\n\n    font-weight: 600;\n\n    font-size: 14px;\n\n    color: #111827;\n\n  }\n\n  .review-card__badge {\n\n    font-size: 10px;\n\n    color: #10b981;\n\n    font-weight: 600;\n\n    display: flex;\n\n    align-items: center;\n\n    gap: 3px;\n\n  }\n\n  .review-card__stars {\n\n    color: #f59e0b;\n\n    font-size: 14px;\n\n    letter-spacing: 1px;\n\n    margin-bottom: 8px;\n\n  }\n\n  .review-card__text {\n\n    font-size: 13px;\n\n    color: #4b5563;\n\n    line-height: 1.6;\n\n  }\n\n  .review-card__date {\n\n    font-size: 11px;\n\n    color: #9ca3af;\n\n    margin-top: 10px;\n\n  }\n\n</style>\n\n \n\n<div class=\"reviews-carousel\">\n\n  <h3 class=\"reviews-carousel__title\">Ce que nos clients disent</h3>\n\n  <div class=\"reviews-carousel__track\">\n\n \n\n    <div class=\"review-card\">\n\n      <div class=\"review-card__header\">\n\n        <div class=\"review-card__avatar\">M</div>\n\n        <div>\n\n          <div class=\"review-card__name\">Marie L.</div>\n\n          <div class=\"review-card__badge\">✓ Achat vérifié</div>\n\n        </div>\n\n      </div>\n\n      <div class=\"review-card__stars\">★★★★★</div>\n\n      <div class=\"review-card__text\">Produit de qualité exceptionnelle ! L'emballage était soigné et la livraison ultra rapide. Je recommande à 100%.</div>\n\n      <div class=\"review-card__date\">Il y a 3 jours</div>\n\n    </div>\n\n \n\n    <div class=\"review-card\">\n\n      <div class=\"review-card__header\">\n\n        <div class=\"review-card__avatar\">T</div>\n\n        <div>\n\n          <div class=\"review-card__name\">Thomas B.</div>\n\n          <div class=\"review-card__badge\">✓ Achat vérifié</div>\n\n        </div>\n\n      </div>\n\n      <div class=\"review-card__stars\">★★★★★</div>\n\n      <div class=\"review-card__text\">Deuxième commande ici et toujours aussi satisfait. Le service client est top, ils m'ont répondu en 1h.</div>\n\n      <div class=\"review-card__date\">Il y a 1 semaine</div>\n\n    </div>\n\n \n\n    <div class=\"review-card\">\n\n      <div class=\"review-card__header\">\n\n        <div class=\"review-card__avatar\">S</div>\n\n        <div>\n\n          <div class=\"review-card__name\">Sophie R.</div>\n\n          <div class=\"review-card__badge\">✓ Achat vérifié</div>\n\n        </div>\n\n      </div>\n\n      <div class=\"review-card__stars\">★★★★☆</div>\n\n      <div class=\"review-card__text\">Très bon rapport qualité-prix. Le produit correspond parfaitement à la description. Petit bémol sur le délai, sinon parfait.</div>\n\n      <div class=\"review-card__date\">Il y a 2 semaines</div>\n\n    </div>\n\n \n\n    <div class=\"review-card\">\n\n      <div class=\"review-card__header\">\n\n        <div class=\"review-card__avatar\">J</div>\n\n        <div>\n\n          <div class=\"review-card__name\">Julien D.</div>\n\n          <div class=\"review-card__badge\">✓ Achat vérifié</div>\n\n        </div>\n\n      </div>\n\n      <div class=\"review-card__stars\">★★★★★</div>\n\n      <div class=\"review-card__text\">J'ai offert ce produit à ma femme, elle était ravie. La qualité est vraiment au rendez-vous. Bravo !</div>\n\n      <div class=\"review-card__date\">Il y a 3 semaines</div>\n\n    </div>\n\n \n\n  </div>\n\n</div>",
         "background": "",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, #FFC266 0%, #FFA31A 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
       }
     }
   },
@@ -238,7 +334,8 @@
     "main",
     "accordion_content_4TUyBg",
     "related-products",
+    "multiple_images_with_text_GVt7hW",
     "custom_liquid_mtqW44",
-    "custom_liquid_xK7MLf"
+    "177180215108589fa8"
   ]
 }
