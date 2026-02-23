@@ -129,7 +129,7 @@
         "blog_UDPUpc": {
           "type": "blog",
           "settings": {
-            "blog": "actualites",
+            "blog": "blog",
             "posts_count": 3,
             "stack_items": false
           }
@@ -147,7 +147,7 @@
         "show_comments_count": false,
         "show_category": true,
         "subheading": "",
-        "title": "Blog posts",
+        "title": "Blog",
         "content": "",
         "link_url": "",
         "link_text": "View all",
