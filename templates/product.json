@@ -171,12 +171,15 @@
         "item_iPz7BE",
         "item_j9yU9q"
       ],
+      "custom_css": [
+        "h2 {font-size: 40px;}"
+      ],
       "name": "Accordion content",
       "settings": {
         "full_width": true,
         "subheading": "",
         "title": "Bien plus qu'un simple nettoyage.",
-        "content": "<p><br/><strong>Olnara® Pure Cleaner </strong>a été conçu pour remplacer définitivement les méthodes archaïques et dangereuses. </p><p>En combinant vision haute définition et douceur médicale, nous offrons à votre foyer une solution de soin durable, sûre et certifiée.<br/><br/></p>",
+        "content": "<p><strong>Olnara® Pure Cleaner </strong>a été conçu pour remplacer définitivement les méthodes archaïques et dangereuses. </p><p>En combinant vision haute définition et douceur médicale, nous offrons à votre foyer une solution de soin durable, sûre et certifiée.</p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
