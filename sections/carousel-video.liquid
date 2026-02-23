@@ -1,85 +1,236 @@
-{%- style -%}
-  .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding-block-start }}px;
-    padding-bottom: {{ section.settings.padding-block-end }}px;
+{%- unless section.settings.full_width -%}
+  {%- render 'section-spacing-collapsing' -%}
+{%- endunless -%}
+
+<style>
+  #shopify-section-{{ section.id }} {
+    {%- if section.settings.full_width -%}
+      --section-outer-spacing-block: 0;
+    {%- endif -%}
+    --content-over-media-overlay: {{ section.settings.overlay_color.rgb }} / {{ section.settings.overlay_opacity | divided_by: 100.0 }};
   }
 
-  /* Gestion de la disposition (Flexbox) basée sur les réglages */
-  .section-container-{{ section.id }} {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: {{ section.settings.content_direction }};
+  .video-gallery-grid-{{ section.id }} {
+    display: grid;
+    grid-template-columns: repeat({{ section.settings.columns_desktop }}, 1fr);
     gap: {{ section.settings.gap }}px;
-    
-    /* Alignement horizontal */
-    {% if section.settings.content_direction == 'row' %}
-      justify-content: {{ section.settings.horizontal_alignment }};
-      align-items: {{ section.settings.vertical_alignment }};
-    {% else %}
-      align-items: {{ section.settings.horizontal_alignment_flex_direction_column }};
-      justify-content: {{ section.settings.vertical_alignment_flex_direction_column }};
-    {% endif %}
+    padding: 0 var(--container-gutter, 20px);
+  }
+
+  .video-gallery-item {
+    position: relative;
+    border-radius: {{ section.settings.border_radius }}px;
+    overflow: hidden;
+    /* Ratio 9:16 pour les vidéos verticales type Reel/TikTok */
+    aspect-ratio: 9 / 16;
+    background: #000;
+  }
+
+  .video-gallery-item video-media {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .video-gallery-item video,
+  .video-gallery-item iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Assure que la vidéo remplit l'espace sans se déformer */
   }
 
   /* Responsive Mobile */
-  @media screen and (max-width: 750px) {
-    {% if section.settings.vertical_on_mobile %}
-      .section-container-{{ section.id }} {
-        flex-direction: column !important;
-        align-items: center; /* Centrage par défaut sur mobile */
-      }
-    {% endif %}
+  @media screen and (max-width: 749px) {
+    .video-gallery-grid-{{ section.id }} {
+      grid-template-columns: repeat({{ section.settings.columns_mobile }}, 1fr);
+      gap: 10px;
+      padding: 0 10px;
+    }
   }
-{%- endstyle -%}
+</style>
 
-<div class="color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
-  <div class="{% if section.settings.section_width == 'page-width' %}page-width{% else %}full-width{% endif %}">
-    
-    <div class="section-container-{{ section.id }}">
-      {%- for block in section.blocks -%}
-        <div class="section-block" {{ block.shopify_attributes }}>
-          
-          {%- case block.type -%}
-            
-            {%- when 'heading' -%}
-              <h2 class="{{ block.settings.type_preset }}" style="text-align: {{ block.settings.alignment }}">
-                {{ block.settings.text | default: "Titre" }}
-              </h2>
-
-            {%- when 'text' -%}
-              <div class="rte" style="text-align: {{ block.settings.alignment }}; max-width: {{ block.settings.max_width }}">
-                {{ block.settings.text }}
-              </div>
-
-            {%- when 'button' -%}
-              <div style="text-align: center; width: 100%;">
-                <a href="{{ block.settings.link }}" class="button {{ block.settings.style_class }}">
-                  {{ block.settings.label }}
-                </a>
-              </div>
-
-            {%- when 'image' -%}
-               {% if block.settings.image != blank %}
-                 {{ block.settings.image | image_url: width: 800 | image_tag: loading: 'lazy' }}
-               {% endif %}
-
-            {%- when 'accordion' -%}
-              <details>
-                <summary>{{ block.settings.heading | default: "Accordéon" }}</summary>
-                <div class="accordion-content">
-                  Contenu de l'accordéon à implémenter ici.
-                </div>
-              </details>
-
-            {%- else -%}
-              <p style="background: #f4f4f4; padding: 10px;">
-                Le type de bloc <strong>{{ block.type }}</strong> doit être configuré dans le code Liquid.
-              </p>
-
-          {%- endcase -%}
-        </div>
-      {%- endfor -%}
+<div {% render 'section-properties', class: class %}>
+  {%- if section.settings.heading != blank -%}
+    <div class="text-center" style="margin-bottom: 30px;">
+      <h2 class="{{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
     </div>
+  {%- endif -%}
+
+  <div class="video-gallery-grid-{{ section.id }} {% if section.settings.full_width %}full-bleed{% endif %}">
+    
+    {%- for block in section.blocks -%}
+      <div class="video-gallery-item shadow-block" {{ block.shopify_attributes }}>
+        
+        {%- capture poster -%}
+          {%- assign poster_image = block.settings.poster | default: block.settings.video.preview_image -%}
+          {%- if block.settings.autoplay == false and poster_image != blank -%}
+            {{- poster_image | image_url: width: 600 | image_tag: loading: 'lazy', class: 'w-full h-full object-cover' -}}
+          {%- endif -%}
+        {%- endcapture -%}
+
+        {%- if block.settings.video -%}
+          <video-media {% if block.settings.autoplay %}autoplay{% endif %}>
+            
+            {%- if block.settings.autoplay -%}
+              {%- assign show_controls = false -%}
+            {%- else -%}
+              {%- assign show_controls = true -%}
+            {%- endif -%}
+
+            {{- block.settings.video | video_tag: playsinline: true, preload: 'metadata', muted: block.settings.autoplay, loop: block.settings.autoplay, controls: show_controls, image_size: '600x' -}}
+            {{- poster -}}
+          </video-media>
+
+        {%- elsif block.settings.external_video_url != blank -%}
+          <video-media host="{{ block.settings.external_video_url.type }}" {% if block.settings.autoplay %}autoplay class="pointer-events-none"{% endif %}>
+            {{- poster -}}
+            <template>
+              {%- if block.settings.external_video_url.type == 'youtube' -%}
+                <iframe src="https://www.youtube.com/embed/{{ block.settings.external_video_url.id }}?playsinline=1&{% if block.settings.autoplay %}autoplay=1&controls=0&mute=1&loop=1&{% endif %}playlist={{ block.settings.external_video_url.id }}&enablejsapi=1&rel=0&modestbranding=1&origin={{ 'https://' | append: request.host | url_encode }}" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe>
+              {%- elsif block.settings.external_video_url.type == 'vimeo' -%}
+                <iframe src="https://player.vimeo.com/video/{{ block.settings.external_video_url.id }}?autopause=1&{% if block.settings.autoplay %}background=1&autoplay=1&loop=1&muted=1&{% endif %}transparent=0&responsive=1&portrait=0&title=0&byline=0&color={{ settings.text_color | remove_first: '#' }}" allow="autoplay; encrypted-media;" allowfullscreen="allowfullscreen"></iframe>
+              {%- endif -%}
+            </template>
+          </video-media>
+        {%- else -%}
+          <div style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; background: #f4f4f4; color: #999;">
+             Ajoutez une vidéo
+           </div>
+        {%- endif -%}
+
+      </div>
+    {%- endfor -%}
 
   </div>
 </div>
+
+{% schema %}
+{
+  "name": "Galerie Vidéos",
+  "class": "shopify-section--video-gallery",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Titre de la section",
+      "default": "Nos clients en action"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "label": "Taille du titre",
+      "options": [
+        { "value": "h2", "label": "H2" },
+        { "value": "h3", "label": "H3" }
+      ],
+      "default": "h2"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Pleine largeur",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "columns_desktop",
+      "min": 2,
+      "max": 5,
+      "step": 1,
+      "label": "Vidéos par rangée (Bureau)",
+      "default": 4
+    },
+    {
+      "type": "select",
+      "id": "columns_mobile",
+      "label": "Vidéos par rangée (Mobile)",
+      "options": [
+        { "value": "1", "label": "1" },
+        { "value": "2", "label": "2" }
+      ],
+      "default": "2"
+    },
+    {
+      "type": "range",
+      "id": "gap",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Espace entre les vidéos",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Arrondi des coins",
+      "default": 8
+    },
+    {
+      "type": "color",
+      "id": "overlay_color",
+      "label": "Couleur d'overlay",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "label": "Opacité de l'overlay",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "video",
+      "name": "Vidéo",
+      "settings": [
+        {
+          "type": "video",
+          "id": "video",
+          "label": "Vidéo (MP4 recommandé)"
+        },
+        {
+          "type": "video_url",
+          "id": "external_video_url",
+          "accept": ["vimeo", "youtube"],
+          "label": "Lien YouTube ou Vimeo (Optionnel)",
+          "info": "Si le champ Vidéo MP4 ci-dessus est rempli, ce lien sera ignoré."
+        },
+        {
+          "type": "image_picker",
+          "id": "poster",
+          "label": "Image de couverture",
+          "info": "Optionnel. Sera utilisé si l'autoplay est désactivé."
+        },
+        {
+          "type": "checkbox",
+          "id": "autoplay",
+          "label": "Lecture automatique",
+          "info": "Les vidéos seront muettes et boucleront automatiquement.",
+          "default": true
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Galerie Vidéos (Grille)",
+      "blocks": [
+        { "type": "video" },
+        { "type": "video" },
+        { "type": "video" },
+        { "type": "video" }
+      ]
+    }
+  ]
+}
+{% endschema %}
