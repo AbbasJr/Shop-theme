@@ -11,9 +11,8 @@
   "sections": {
     "main": {
       "type": "main-blog",
-      "disabled": true,
       "settings": {
-        "allow_transparent_header": false,
+        "allow_transparent_header": true,
         "content": "<p>Get access to our latest news by signing up for our newsletter.</p>",
         "show_newsletter_form": true,
         "show_tags": true,
@@ -31,50 +30,9 @@
         "show_comments_count": false,
         "show_category": true
       }
-    },
-    "rich_text_xFqMeQ": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_7LQA6g": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_XfYiUF": {
-          "type": "heading",
-          "settings": {
-            "text": "Heading",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_FPQyGG": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_7LQA6g",
-        "heading_XfYiUF",
-        "richtext_FPQyGG"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
-    "main",
-    "rich_text_xFqMeQ"
+    "main"
   ]
 }
