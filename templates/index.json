@@ -56,15 +56,15 @@
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "collection-soin",
             "subheading": "",
             "title": "",
             "url": "shopify://products/smart-visual-ear-cleaner-with-camera-wax-remover-tool-stick-otoscope-1080p-hd-earpick-endoscope-earring-personal-health-care",
             "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
+            "text_position": "place-self-end-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 13
           }
         }
       },
@@ -86,31 +86,6 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": ""
-      }
-    },
-    "featured-collection": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "",
-        "products": [],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_count": 6,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "subheading": "",
-        "title": "Featured collection",
-        "content": "",
-        "link_url": "shopify://products/smart-visual-ear-cleaner-with-camera-wax-remover-tool-stick-otoscope-1080p-hd-earpick-endoscope-earring-personal-health-care",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
       }
     },
     "impact-text": {
@@ -152,7 +127,6 @@
   "order": [
     "slideshow",
     "collection-list",
-    "featured-collection",
     "impact-text"
   ]
 }
