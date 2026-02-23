@@ -172,7 +172,7 @@
         "item_j9yU9q"
       ],
       "custom_css": [
-        "h2 {font-size: 40px;}"
+        "h2 {font-size: 30px;}"
       ],
       "name": "Accordion content",
       "settings": {
@@ -196,6 +196,7 @@
     },
     "custom_liquid_mtqW44": {
       "type": "custom-liquid",
+      "custom_css": [],
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
