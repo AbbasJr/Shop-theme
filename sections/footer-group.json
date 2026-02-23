@@ -17,25 +17,26 @@
         "newsletter": {
           "type": "newsletter",
           "settings": {
-            "image_width": 150,
-            "heading_size": "h3",
-            "title": "Sign up for new stories and personal offers",
+            "image": "shopify://shop_images/OLNARA_noir_logo_1.png",
+            "image_width": 90,
+            "heading_size": "h5",
+            "title": "Inscrivez-vous pour les dernières actualités et des offres spéciales",
             "content": ""
           }
         },
         "links": {
           "type": "links",
           "settings": {
-            "menu": "footer",
-            "show_menu_title": true
+            "menu": "",
+            "show_menu_title": false
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
-            "enable_follow_on_shop": true
+            "title": "A propos de nous",
+            "content": "<p><strong>Olnara transforme vos rituels d'hygiène en une expérience de lumière et de haute précision, où la technologie de pointe veille avec douceur sur vos sens.</strong></p><p><strong>Nous cultivons la pureté pour offrir à chaque famille la sérénité d'un soin protecteur, faisant de votre bien-être quotidien notre plus belle ambition.</strong></p>",
+            "enable_follow_on_shop": false
           }
         }
       },
