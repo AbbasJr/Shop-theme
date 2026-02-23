@@ -198,6 +198,81 @@
         "text_color": ""
       }
     },
+    "text_with_icons_VEd48H": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_EwThx6": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-camera",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Vision HD Intégrée",
+            "content": "<p>Visualisez votre conduit en temps réel. Fini le nettoyage à l'aveugle, protégez vos tympans. </p>"
+          }
+        },
+        "item_KBDUkR": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-love",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Hygiène Familiale Totale",
+            "content": "<p>Un embout neuf pour chacun : toute la famille profite d'une hygiène parfaite, sans aucun risque de partage de bactéries. </p>"
+          }
+        },
+        "item_dRtcgA": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-leaf",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Silicone Médical Souple",
+            "content": "<p>L'embout ultra-doux en matériaux premium respecte votre sensibilité pour un soin précis, sans douleur ni irritation.</p>"
+          }
+        },
+        "item_XQJjnL": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-mask",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Qualité Professionnelle",
+            "content": "<p>La technologie ORL dans votre salle de bain. Un investissement durable pour une santé auditive parfaite. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_EwThx6",
+        "item_KBDUkR",
+        "item_dRtcgA",
+        "item_XQJjnL"
+      ],
+      "name": "Text with icons",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "#272759ff",
+        "background_gradient": "",
+        "text_color": "#f2f2f2"
+      }
+    },
     "video_slider_hNNCLQ": {
       "type": "video-slider",
       "blocks": {
@@ -364,93 +439,18 @@
         "background_gradient": "",
         "text_color": ""
       }
-    },
-    "text_with_icons_VEd48H": {
-      "type": "text-with-icons",
-      "blocks": {
-        "item_EwThx6": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-camera",
-            "mobile_icon_width": 24,
-            "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Vision HD Intégrée",
-            "content": "<p>Visualisez votre conduit en temps réel. Fini le nettoyage à l'aveugle, protégez vos tympans. </p>"
-          }
-        },
-        "item_KBDUkR": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-love",
-            "mobile_icon_width": 24,
-            "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Hygiène Familiale Totale",
-            "content": "<p>Un embout neuf pour chacun : toute la famille profite d'une hygiène parfaite, sans aucun risque de partage de bactéries. </p>"
-          }
-        },
-        "item_dRtcgA": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-leaf",
-            "mobile_icon_width": 24,
-            "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Silicone Médical Souple",
-            "content": "<p>L'embout ultra-doux en matériaux premium respecte votre sensibilité pour un soin précis, sans douleur ni irritation.</p>"
-          }
-        },
-        "item_XQJjnL": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-mask",
-            "mobile_icon_width": 24,
-            "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Qualité Professionnelle",
-            "content": "<p>La technologie ORL dans votre salle de bain. Un investissement durable pour une santé auditive parfaite. </p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_EwThx6",
-        "item_KBDUkR",
-        "item_dRtcgA",
-        "item_XQJjnL"
-      ],
-      "name": "Text with icons",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "title": "",
-        "heading_tag": "h5",
-        "text_alignment": "center",
-        "icon_spacing": "medium",
-        "background": "#272759ff",
-        "background_gradient": "",
-        "text_color": "#f2f2f2"
-      }
     }
   },
   "order": [
     "main",
     "accordion_content_4TUyBg",
     "custom_liquid_mtqW44",
+    "text_with_icons_VEd48H",
     "video_slider_hNNCLQ",
     "related-products",
     "image_with_text_overlay_bLinYN",
     "multiple_images_with_text_GVt7hW",
     "custom_liquid_M6acyA",
-    "custom_liquid_4z7Ma6",
-    "text_with_icons_VEd48H"
+    "custom_liquid_4z7Ma6"
   ]
 }
