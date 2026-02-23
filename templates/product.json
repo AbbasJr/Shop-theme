@@ -185,6 +185,50 @@
         "accordion_text_color": ""
       }
     },
+    "video_slider_hNNCLQ": {
+      "type": "video-slider",
+      "blocks": {
+        "testimonial_jQhAhd": {
+          "type": "testimonial",
+          "settings": {
+            "video": "shopify://files/videos/Ear Wax Removal Tool with Camera is so Cool!.mp4"
+          }
+        },
+        "testimonial_Fdq7k8": {
+          "type": "testimonial",
+          "settings": {
+            "video": "shopify://files/videos/Ear cleaner with a camera!.mp4"
+          }
+        },
+        "testimonial_EKzUqa": {
+          "type": "testimonial",
+          "settings": {
+            "video": "shopify://files/videos/Vidéo 2.mp4"
+          }
+        },
+        "testimonial_hiLAMj": {
+          "type": "testimonial",
+          "settings": {
+            "video": "shopify://files/videos/the TRUTH about the Earwax Remover Tool.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_jQhAhd",
+        "testimonial_Fdq7k8",
+        "testimonial_EKzUqa",
+        "testimonial_hiLAMj"
+      ],
+      "name": "Videos slider",
+      "settings": {
+        "title": "Video slider",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -333,6 +377,7 @@
   "order": [
     "main",
     "accordion_content_4TUyBg",
+    "video_slider_hNNCLQ",
     "related-products",
     "multiple_images_with_text_GVt7hW",
     "custom_liquid_mtqW44",
