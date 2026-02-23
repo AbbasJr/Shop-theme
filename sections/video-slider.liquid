@@ -3,65 +3,75 @@
     padding-top: {{ section.settings.padding_top }}px;
     padding-bottom: {{ section.settings.padding_bottom }}px;
   }
-  .video-slider .testimonial__image {
-    height: 500px;
-    max-width: 27rem;
-  }
+
+  /* 1. Reset et suppression des contraintes d'origine */
   .video-slider testimonials-component {
-    --block-width: 300px !important;
+    --block-width: auto !important; /* On annule la largeur forcée de 300px */
   }
+  
   .video-slider .testimonial__image {
     background: none;
+    height: auto; /* Annule la hauteur de 500px */
+    max-width: none;
   }
-  .video-slider video {
-    height: 100% !important;
-    border-radius: 15px;
-  }
-  .video-slider .testimonial__image.media-wrapper {
-    margin-right: 0;
-  }
-  .video-slider .video-slider-list:before,
-  .video-slider .video-slider-list:after {
-    width: 0%;
-  }
-  .video-slider-item {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+
+  /* 2. Le conteneur de la liste (Le Slider) */
   .video-slider-list {
-    overflow-y: hidden;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: auto;
-    -webkit-overflow-scrolling: auto;
-    scrollbar-color: #cccccc #ffffff;
-    scrollbar-width: thin;
-    padding-bottom: 10px;
-  }
-  .video-slider-list::-webkit-scrollbar-track {
-    background: white;
-  }
-  .video-slider-list::-webkit-scrollbar-thumb {
-    background: lightgray;
-    border: 4px solid transparent;
-    border-radius: 10px;
-    background-clip: padding-box;
-  }
-  .video-slider:hover .video-slider-list::-webkit-scrollbar-thumb {
-    background: gray;
-  }
-  .video-slider-list::-webkit-scrollbar-thumb:hover {
-    background: black !important;
-  }
-  .video-slider-list {
-    position: static;
     display: flex;
+    gap: 15px; /* Espacement propre entre les vidéos */
+    padding-bottom: 20px;
+    margin: 0;
+    
+    /* Scroll fluide sur mobile */
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory; /* Force l'arrêt sur une vidéo */
+    -webkit-overflow-scrolling: touch;
+    
+    /* On cache la scrollbar disgracieuse */
+    scrollbar-width: none; /* Firefox */
   }
-  @media only screen and (max-width: 800px) {
-    .video-slider .testimonial__image {
-      margin-left: 0;
+  .video-slider-list::-webkit-scrollbar {
+    display: none; /* Chrome/Safari */
+  }
+
+  /* 3. L'élément vidéo individuel */
+  .video-slider-item {
+    flex: 0 0 auto; /* Empêche l'écrasement */
+    width: 280px; /* Largeur fixe sur PC */
+    scroll-snap-align: center; /* S'arrête au milieu quand on swipe */
+    margin: 0; /* On enlève les marges moches */
+  }
+
+  /* 4. Le format de la vidéo (9:16) */
+  .video-slider .testimonial__image.media-wrapper {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 9 / 16; /* Format Reel/TikTok */
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  }
+
+  .video-slider video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100% !important;
+    object-fit: cover; /* Remplit le cadre sans déformer */
+    border-radius: 0; /* Géré par le parent */
+  }
+
+  /* 5. Ajustements Mobile */
+  @media only screen and (max-width: 749px) {
+    .video-slider-item {
+      /* Sur mobile, on prend 75% de l'écran pour voir la vidéo suivante */
+      width: 75vw; 
     }
-    .video-slider .video-slider-list {
-      width: 100%;
+    .video-slider-list {
+      padding-left: 20px; /* Espace de sécurité à gauche */
+      padding-right: 20px; /* Espace de sécurité à droite */
     }
   }
 {%- endstyle -%}
