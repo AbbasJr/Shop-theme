@@ -53,15 +53,18 @@
     "rich_text_Antad8": {
       "type": "rich-text",
       "blocks": {
-        "subheading_dKjPcM": {
-          "type": "subheading",
+        "heading_9FKVhQ": {
+          "type": "heading",
           "settings": {
-            "text": ""
+            "text": "Notre Nettoyeur d'Oreilles Connectés",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
           }
         }
       },
       "block_order": [
-        "subheading_dKjPcM"
+        "heading_9FKVhQ"
       ],
       "name": "Rich text",
       "settings": {
