@@ -189,9 +189,9 @@
           "settings": {
             "image": "shopify://shop_images/Benefice_2_app.jpg",
             "image_rotation_degrees": -2,
-            "subheading": "Best-Seller : Le Nettoyeur d'Oreilles Connecté",
-            "title": "",
-            "content": "<p>Chaque coup de coton-tige à l'aveugle pousse le cérumen contre votre tympan et risque de le perforer. Arrêtez de jouer avec votre audition. Le Nettoyeur Olnara® apporte enfin la lumière en HD : voyez ce que vous faites, extrayez la saleté sans douleur et protégez votre famille des infections.</p>",
+            "subheading": "",
+            "title": "Best-Seller : Le Nettoyeur d'Oreilles",
+            "content": "<p>Chaque coup de coton-tige à l'aveugle pousse le cérumen contre votre tympan et risque de le perforer. Arrêtez de jouer avec votre audition. Le Nettoyeur Olnara apporte enfin la lumière en HD : voyez ce que vous faites, extrayez la saleté sans douleur et protégez votre famille des infections.</p>",
             "button_url": "",
             "button_text": ""
           }
