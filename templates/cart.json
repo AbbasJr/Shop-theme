@@ -19,6 +19,12 @@
             "show_shipping_text": true
           }
         },
+        "text_9kzWGj": {
+          "type": "text",
+          "settings": {
+            "content": "<p><strong>Livraison OFFERTE</strong></p>"
+          }
+        },
         "cart_note": {
           "type": "cart_note",
           "settings": {}
@@ -30,6 +36,7 @@
       },
       "block_order": [
         "totals",
+        "text_9kzWGj",
         "cart_note",
         "checkout_button"
       ],
