@@ -196,6 +196,7 @@
     },
     "custom_liquid_mtqW44": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [],
       "name": "Custom Liquid",
       "settings": {
