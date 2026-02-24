@@ -20,17 +20,17 @@
             "content_max_width": 600,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "Découvrir le produit",
+            "subheading": "dazd",
+            "title": "dazd",
+            "heading_tag": "h2",
+            "button_text": "EN SAVOIR PLUS",
             "button_link": "shopify://products/smart-visual-ear-cleaner-with-camera-wax-remover-tool-stick-otoscope-1080p-hd-earpick-endoscope-earring-personal-health-care",
             "text_color": "#ffffff",
-            "button_background": "#b3b73f",
+            "button_background": "#f0c417",
             "button_text_color": "#f0f0f0",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
-            "background": "",
+            "background": "rgba(0,0,0,0)",
             "background_gradient": ""
           }
         }
