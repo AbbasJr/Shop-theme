@@ -50,6 +50,29 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
+    "rich_text_Antad8": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_dKjPcM": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_dKjPcM"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "featured_product_BTjYU3": {
       "type": "featured-product",
       "blocks": {
@@ -180,6 +203,7 @@
   },
   "order": [
     "slideshow",
+    "rich_text_Antad8",
     "featured_product_BTjYU3",
     "impact-text",
     "blog_posts_RKwKpa"
