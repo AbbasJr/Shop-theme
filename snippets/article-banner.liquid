@@ -29,11 +29,6 @@ Supported parameters
         </p>
       {%- endif -%}
 
-      {%- if show_author -%}
-        <p class="text-with-icon link-faded">
-          {%- render 'icon' with 'blog-author' -%} {{- 'blog.post.written_by' | t: author: article.author -}}
-        </p>
-      {%- endif -%}
 
       {%- if show_comments_count and article.comments_enabled? -%}
         <a href="#blog-post-comments" class="text-with-icon link-faded">
