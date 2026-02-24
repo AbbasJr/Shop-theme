@@ -50,42 +50,48 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
-    "collection-list": {
-      "type": "collection-list",
+    "featured_product_BTjYU3": {
+      "type": "featured-product",
       "blocks": {
-        "collection-1": {
-          "type": "collection",
+        "badges_JikR4Y": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_HGzfyr": {
+          "type": "price",
           "settings": {
-            "collection": "collection-soin",
-            "subheading": "",
-            "title": "",
-            "url": "shopify://products/smart-visual-ear-cleaner-with-camera-wax-remover-tool-stick-otoscope-1080p-hd-earpick-endoscope-earring-personal-health-care",
-            "heading_tag": "h2",
-            "text_position": "place-self-end-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 13
+            "show_taxes_notice": false
+          }
+        },
+        "rating_9JnD7h": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
           }
         }
       },
       "block_order": [
-        "collection-1"
+        "badges_JikR4Y",
+        "price_HGzfyr",
+        "rating_9JnD7h"
       ],
+      "name": "Featured product",
       "settings": {
         "full_width": true,
-        "stack_collections": false,
-        "collections_per_row": 3,
-        "show_progress_bar": false,
-        "subheading": "",
-        "title": "Nettoyeur d'Oreilles Connectés",
-        "content": "",
-        "link_url": "shopify://products/smart-visual-ear-cleaner-with-camera-wax-remover-tool-stick-otoscope-1080p-hd-earpick-endoscope-earring-personal-health-care",
-        "link_text": "View all",
+        "product": "smart-visual-ear-cleaner-with-camera-wax-remover-tool-stick-otoscope-1080p-hd-earpick-endoscope-earring-personal-health-care",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
       }
     },
     "impact-text": {
@@ -161,7 +167,7 @@
   },
   "order": [
     "slideshow",
-    "collection-list",
+    "featured_product_BTjYU3",
     "impact-text",
     "blog_posts_RKwKpa"
   ]
