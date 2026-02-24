@@ -14,30 +14,22 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "message_YLamLp": {
-          "type": "message",
-          "settings": {
-            "text": "Olnara® : L'excellence au service du soin de précision.",
-            "url": ""
-          }
-        },
         "message_3CGkRN": {
           "type": "message",
           "settings": {
-            "text": "Livraison & Retours Offerts",
+            "text": "Livraison Offerte",
             "url": ""
           }
         },
         "message": {
           "type": "message",
           "settings": {
-            "text": "- 10% avec PURE10",
+            "text": "- 10% avec le code PURE10",
             "url": ""
           }
         }
       },
       "block_order": [
-        "message_YLamLp",
         "message_3CGkRN",
         "message"
       ],
