@@ -37,7 +37,14 @@
           "type": "item",
           "settings": {
             "title": "Puis-je retourner mon produit si je change d'avis ?",
-            "content": "<p>Oui. Vous disposez de <strong>15 jours après la réception</strong> de votre commande pour nous informer de votre souhait de retour. Pour des raisons d'hygiène évidentes, les produits doivent être retournés dans leur emballage d'origine, non utilisés et complets.</p>"
+            "content": "<p>Pour des raisons de protection de la santé et d'hygiène, <strong>aucun retour n'est accepté</strong> une fois le produit livré. </p><p>Cette politique stricte est notre engagement envers vous : elle garantit que chaque client Olnara reçoit un dispositif <strong>100% neuf, stérile et jamais manipulé</strong>. En vertu de l'article L221-28 du Code de la Consommation, le droit de rétractation ne s'applique pas aux produits d'hygiène</p>"
+          }
+        },
+        "item_YrHTaR": {
+          "type": "item",
+          "settings": {
+            "title": "Proposez-vous une garantie Satisfait ou Remboursé ?",
+            "content": "<p>Absolument. Si après avoir essayé Olnara vous n'êtes pas pleinement convaincu par la précision de votre appareil, nous vous proposons un <strong>remboursement intégral sous forme d'avoir (Carte Cadeau)</strong> valable sur l'ensemble de notre boutique (sous limite de 14 jours).</p><p><strong>Pourquoi l'avoir ?</strong> Pour des raisons d'hygiène et de sécurité sanitaire, nos produits ne peuvent être réintégrés dans notre circuit de vente une fois expédiés. L'avoir nous permet de vous satisfaire immédiatement tout en garantissant la destruction sécurisée des produits usagés.</p>"
           }
         },
         "item_AKnTaE": {
@@ -59,6 +66,7 @@
         "item_7iQi7w",
         "item_wGrQhG",
         "item_eYG3AG",
+        "item_YrHTaR",
         "item_AKnTaE",
         "item_mYk9kQ"
       ],
