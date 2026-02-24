@@ -372,6 +372,18 @@
     "multiple_images_with_text_GVt7hW": {
       "type": "multiple-images-with-text",
       "blocks": {
+        "item_gdNANm": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_2.jpg",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Votre corps mérite une clarté absolue",
+            "content": "<p>Ne laissez plus le doute s'installer sur la propreté de vos oreilles lors de vos interactions sociales. <strong>Le Nettoyeur Olnara</strong> vous permet d'effectuer un check-up complet en quelques secondes. </p><p>C’est l’assurance d’une image impeccable et d'une sensation de fraîcheur que vous pouvez enfin vérifier par vous-même, sur votre écran.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
         "item_q4ch6W": {
           "type": "item",
           "settings": {
@@ -395,24 +407,12 @@
             "button_url": "",
             "button_text": ""
           }
-        },
-        "item_gdNANm": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/controle_hygiene.avif",
-            "image_rotation_degrees": 0,
-            "subheading": "",
-            "title": "Votre corps mérite une clarté absolue",
-            "content": "<p>Ne laissez plus le doute s'installer sur la propreté de vos oreilles lors de vos interactions sociales. <strong>Le Nettoyeur Olnara</strong> vous permet d'effectuer un check-up complet en quelques secondes. </p><p>C’est l’assurance d’une image impeccable et d'une sensation de fraîcheur que vous pouvez enfin vérifier par vous-même, sur votre écran.</p>",
-            "button_url": "",
-            "button_text": ""
-          }
         }
       },
       "block_order": [
+        "item_gdNANm",
         "item_q4ch6W",
-        "item_LPTQ8t",
-        "item_gdNANm"
+        "item_LPTQ8t"
       ],
       "name": "Multiple images with text",
       "settings": {
