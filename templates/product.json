@@ -86,6 +86,16 @@
             "payment_button_background": "#272759",
             "payment_button_text_color": "#272759"
           }
+        },
+        "inventory_TrR88M": {
+          "type": "inventory",
+          "settings": {
+            "low_inventory_threshold": 0
+          }
+        },
+        "pickup_availability_NtXeRB": {
+          "type": "pickup_availability",
+          "settings": {}
         }
       },
       "block_order": [
@@ -100,7 +110,9 @@
         "liquid_AXpM9k",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons"
+        "buy_buttons",
+        "inventory_TrR88M",
+        "pickup_availability_NtXeRB"
       ],
       "settings": {
         "full_width": true,
