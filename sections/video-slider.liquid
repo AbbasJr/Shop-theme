@@ -88,7 +88,7 @@
 
     {%- assign block_count = section.blocks.size -%}
     {%- if block_count > 0 -%}
-     
+    </br>
       <testimonials-component data-slider="{% if block_count > 1 %}true{% else %}false{% endif %}" data-autorotate="{{ section.settings.autorotate }}" data-autorotate-speed="{{ section.settings.autorotate_speed | times: 1000 }}" style="--block-count: {{ block_count | minus: 1 }};">
         <div class="testimonial__list-wrapper">
           <div class="video-slider-list" id="Testimonials-{{ section.id }}">
