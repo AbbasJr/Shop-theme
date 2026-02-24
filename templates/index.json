@@ -68,12 +68,25 @@
           "settings": {
             "show_empty": false
           }
+        },
+        "button_GdGhxe": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://products/olnara®-pure-cleaner",
+            "text": "EN SAVOIR PLUS",
+            "size": "xl",
+            "style": "fill",
+            "stretch": true,
+            "background": "",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
         "badges_JikR4Y",
         "price_HGzfyr",
-        "rating_9JnD7h"
+        "rating_9JnD7h",
+        "button_GdGhxe"
       ],
       "name": "Featured product",
       "settings": {
