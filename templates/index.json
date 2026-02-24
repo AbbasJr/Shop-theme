@@ -246,6 +246,84 @@
         "heading_color": "",
         "heading_gradient": ""
       }
+    },
+    "faq_LPzxWT": {
+      "type": "faq",
+      "blocks": {
+        "item_crN33R": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "Qui est Olnara® ?",
+            "content": "<p>Olnara® est une marque française dédiée au <strong>soin de haute précision</strong>. Notre mission est de transformer vos rituels d'hygiène quotidiens en expériences technologiques sûres, élégantes et efficaces. </p><p>Nous ne vendons pas de simples accessoires, mais des solutions de bien-être conçues pour durer.</p>"
+          }
+        },
+        "item_Y4f3wg": {
+          "type": "item",
+          "settings": {
+            "title": "Quand est-il de la livraison ?",
+            "content": "<ul><li><strong>Traitement :</strong> Votre commande est préparée sous 24h à 48h.</li><li><strong>Livraison :</strong> Comptez ensuite <strong>5 à 8 jours ouvrés</strong> pour recevoir votre colis en France.</li><li><strong>Frais de livraison :</strong>La transparence est l'un de nos piliers. La livraison standard est <strong>offerte sur l'intégralité de la boutique</strong>, quel que soit le montant de votre commande.</li></ul>"
+          }
+        },
+        "item_ctaGxQ": {
+          "type": "item",
+          "settings": {
+            "title": "Puis-je retourner mon produit si je change d'avis ?",
+            "content": "<p>Pour des raisons de protection de la santé et d'hygiène, <strong>aucun retour n'est accepté</strong> une fois le produit livré. </p><p>Cette politique stricte est notre engagement envers vous : elle garantit que chaque client Olnara reçoit un dispositif <strong>100% neuf, stérile et jamais manipulé</strong>. En vertu de l'article L221-28 du Code de la Consommation, le droit de rétractation ne s'applique pas aux produits d'hygiène</p>"
+          }
+        },
+        "item_4KqmMM": {
+          "type": "item",
+          "settings": {
+            "title": "Proposez-vous une garantie Satisfait ou Remboursé ?",
+            "content": "<p>Absolument. Si après avoir essayé Olnara vous n'êtes pas pleinement convaincu par la précision de votre appareil, nous vous proposons un <strong>remboursement intégral sous forme d'avoir (Carte Cadeau)</strong> valable sur l'ensemble de notre boutique (sous limite de 14 jours).</p><p><strong>Pourquoi l'avoir ?</strong> Pour des raisons d'hygiène et de sécurité sanitaire, nos produits ne peuvent être réintégrés dans notre circuit de vente une fois expédiés. L'avoir nous permet de vous satisfaire immédiatement tout en garantissant la destruction sécurisée des produits usagés.</p>"
+          }
+        },
+        "item_3E6yY4": {
+          "type": "item",
+          "settings": {
+            "title": "Quels sont les moyens de paiement acceptés ?",
+            "content": "<p>Nous acceptons les règlements par carte bancaire (Visa, Mastercard, American Express), ainsi que via <strong>PayPal</strong> et <strong>Apple Pay</strong> pour une transaction simplifiée.</p>"
+          }
+        },
+        "item_bDanwi": {
+          "type": "item",
+          "settings": {
+            "title": "Allez-vous proposer d'autres produits ?",
+            "content": "<p>Absolument. Le soin de l'oreille n'est que la première étape. Olnara® a pour vocation de devenir un écosystème complet pour le soin du corps (peau, audition, vitalité). Chaque nouveau produit suivra la même exigence : <strong>clarté, technologie et luxe.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_crN33R",
+        "item_Y4f3wg",
+        "item_ctaGxQ",
+        "item_4KqmMM",
+        "item_3E6yY4",
+        "item_bDanwi"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Les réponses à vos questions : </p>",
+        "team_avatar_width": 160,
+        "support_hours": "Notre support client est ouvert du lundi au vendredi de 9h à 17h.",
+        "answer_time": "Temps moyen de réponse : 2h",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
     }
   },
   "order": [
@@ -255,6 +333,7 @@
     "featured_product_BTjYU3",
     "impact-text",
     "multiple_images_with_text_nyF3Lk",
-    "blog_posts_RKwKpa"
+    "blog_posts_RKwKpa",
+    "faq_LPzxWT"
   ]
 }
