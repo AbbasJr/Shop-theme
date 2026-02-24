@@ -82,9 +82,9 @@
             "show_payment_button": true,
             "show_gift_card_recipient": true,
             "atc_button_background": "#272759",
-            "atc_button_text_color": "#f0f0f0",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
+            "atc_button_text_color": "#272759",
+            "payment_button_background": "#272759",
+            "payment_button_text_color": "#272759"
           }
         }
       },
