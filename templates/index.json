@@ -28,8 +28,8 @@
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#222222",
-            "overlay_color": "#ffb74a",
-            "overlay_opacity": 0,
+            "overlay_color": "#222222",
+            "overlay_opacity": 10,
             "background": "rgba(0,0,0,0)",
             "background_gradient": ""
           }
