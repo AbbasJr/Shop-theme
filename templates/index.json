@@ -187,7 +187,7 @@
         "blog_UDPUpc": {
           "type": "blog",
           "settings": {
-            "blog": "blog",
+            "blog": "actualites",
             "posts_count": 3,
             "stack_items": false
           }
