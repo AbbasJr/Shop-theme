@@ -32,7 +32,7 @@
       "settings": {
         "allow_transparent_header": false,
         "layout": "content_first",
-        "show_author": true,
+        "show_author": false,
         "show_date": true,
         "show_comments_count": true,
         "show_share_buttons": true,
