@@ -36,7 +36,7 @@
       ],
       "settings": {
         "enable_sticky": false,
-        "text_size": "text-xxs",
+        "text_size": "text-xs",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
         "background": "#242446",
@@ -50,7 +50,7 @@
         "enable_sticky": true,
         "hide_on_scroll": false,
         "logo": "shopify://shop_images/OLNARA_noir_logo_1.png",
-        "logo_max_width": 175,
+        "logo_max_width": 150,
         "logo_mobile_max_width": 170,
         "menu": "main-menu",
         "sidebar_menu": "",
