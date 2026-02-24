@@ -17,12 +17,13 @@
         "message_3CGkRN": {
           "type": "message",
           "settings": {
-            "text": "Livraison Offerte",
+            "text": "Livraison Offerte  &  - 10% avec le code PURE10",
             "url": ""
           }
         },
         "message": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "- 10% avec le code PURE10",
             "url": ""
