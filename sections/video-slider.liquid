@@ -64,15 +64,16 @@
     border-radius: 0; /* Géré par le parent */
   }
 
-  /* 5. Ajustements Mobile */
+ /* 5. Ajustements Mobile */
   @media only screen and (max-width: 749px) {
-    .video-slider-item {
-      /* Sur mobile, on prend 75% de l'écran pour voir la vidéo suivante */
-      width: 75vw; 
-    }
     .video-slider-list {
-      padding-left: 20px; /* Espace de sécurité à gauche */
-      padding-right: 20px; /* Espace de sécurité à droite */
+      justify-content: flex-start; /* 👈 LA CORRECTION MAGIQUE EST ICI */
+      padding-left: 20px; 
+      padding-right: 20px; 
+    }
+    .video-slider-item {
+      width: 60vw; /* (Garde la taille que tu avais choisie ici, ex: 220px ou 60vw) */
+      scroll-snap-align: start; /* 👈 S'assure que la vidéo se cale bien au bord */
     }
   }
 {%- endstyle -%}
