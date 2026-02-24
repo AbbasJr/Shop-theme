@@ -138,6 +138,7 @@
       "blocks": {
         "item_mrHp6E": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Qu'y a-t-il dans votre boîte ?",
             "content": "<p>Chaque coffret <strong>Olnara® Pure Cleaner</strong> contient l'appareil otoscope HD, un lot de 5 embouts interchangeables en silicone médical, un câble de recharge USB-C et un manuel d'utilisation illustré. Tout le nécessaire pour une mise en service immédiate.</p>"
