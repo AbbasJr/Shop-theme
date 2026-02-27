@@ -54,6 +54,11 @@
         "type": "shopify://apps/moon-bundles-upsell-cart-aov/blocks/cart-drawer/aaf4cd95-8b9b-4a14-b929-0f7fc8fced27",
         "disabled": false,
         "settings": {}
+      },
+      "855628211100114053": {
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
