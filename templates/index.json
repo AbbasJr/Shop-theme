@@ -89,6 +89,19 @@
         "text_color": ""
       }
     },
+    "custom_liquid_mGHm3q": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "{%- assign product_handle = 'nettoyeur-doreilles-connecte' -%}\n{%- assign featured_product = all_products[product_handle] -%}\n\n{%- if featured_product != blank -%}\n<style>\n  .olnara-featured-wrapper {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    padding: 60px 20px;\n    max-width: 1100px;\n    margin: 0 auto;\n    gap: 40px;\n    font-family: 'Helvetica Neue', Arial, sans-serif;\n  }\n\n  .olnara-featured-image {\n    flex: 1;\n    max-width: 500px;\n  }\n\n  .olnara-featured-image img {\n    width: 100%;\n    height: auto;\n    border-radius: 12px;\n    box-shadow: 0 10px 30px rgba(0,0,0,0.08);\n  }\n\n  .olnara-featured-content {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n    gap: 15px;\n  }\n\n  .olnara-featured-badge {\n    color: #272759;\n    font-weight: bold;\n    text-transform: uppercase;\n    font-size: 14px;\n    letter-spacing: 1px;\n  }\n\n  .olnara-featured-content h2 {\n    color: #272759;\n    font-size: 2.5em;\n    margin: 0;\n    line-height: 1.2;\n  }\n\n  .olnara-rating {\n    display: flex;\n    align-items: center;\n    gap: 5px;\n    color: #ffb800; /* Couleur or pour les étoiles */\n    font-size: 18px;\n  }\n\n  .olnara-rating-text {\n    color: #555;\n    font-size: 14px;\n    font-weight: normal;\n  }\n\n  .olnara-price {\n    font-size: 1.5em;\n    color: #222;\n    font-weight: bold;\n  }\n\n  .olnara-cta-btn {\n    background-color: #272759;\n    color: #F0F0F0 !important;\n    padding: 18px 35px;\n    text-decoration: none;\n    border-radius: 4px;\n    font-weight: bold;\n    text-align: center;\n    display: inline-block;\n    transition: opacity 0.3s ease;\n    margin-top: 10px;\n  }\n\n  .olnara-cta-btn:hover {\n    opacity: 0.9;\n  }\n\n  @media (max-width: 768px) {\n    .olnara-featured-wrapper {\n      flex-direction: column;\n      text-align: center;\n      padding: 40px 20px;\n    }\n    .olnara-rating {\n      justify-content: center;\n    }\n    .olnara-featured-content h2 {\n      font-size: 1.8em;\n    }\n  }\n</style>\n\n<div class=\"olnara-featured-wrapper\">\n  <div class=\"olnara-featured-image\">\n    <a href=\"{{ featured_product.url }}\">\n      <img src=\"{{ featured_product.featured_image | img_url: '800x800' }}\" alt=\"{{ featured_product.title }}\" loading=\"lazy\">\n    </a>\n  </div>\n\n  <div class=\"olnara-featured-content\">\n    <span class=\"olnara-featured-badge\">Notre Best-Seller</span>\n    <h2>{{ featured_product.title }}</h2>\n    \n    <div class=\"olnara-rating\">\n      <span>★★★★</span>\n      <span class=\"olnara-rating-text\">(4.6/5 • +128 clients satisfaits)</span>\n    </div>\n\n    <div class=\"olnara-price\">\n      {{ featured_product.price | money }}\n    </div>\n\n    <p style=\"color: #555;\">Dites adieu au nettoyage à l'aveugle. Prenez soin de vos oreilles et de celles de vos proches avec la précision de la vision HD.</p>\n\n    <div class=\"cta-container-home\">\n      <a href=\"{{ featured_product.url }}\" class=\"olnara-cta-btn\">\n        EN SAVOIR PLUS\n      </a>\n    </div>\n  </div>\n</div>\n{%- endif -%}",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "featured_product_BTjYU3": {
       "type": "featured-product",
       "blocks": {
@@ -127,6 +140,7 @@
         "rating_9JnD7h",
         "button_GdGhxe"
       ],
+      "disabled": true,
       "name": "Featured product",
       "settings": {
         "full_width": true,
@@ -330,6 +344,7 @@
     "slideshow",
     "custom_liquid_GBVikj",
     "rich_text_Antad8",
+    "custom_liquid_mGHm3q",
     "featured_product_BTjYU3",
     "impact-text",
     "multiple_images_with_text_nyF3Lk",
