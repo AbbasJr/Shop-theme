@@ -258,19 +258,27 @@
       "blocks": {
         "testimonial_jQhAhd": {
           "type": "testimonial",
-          "settings": {}
+          "settings": {
+            "video": "shopify://files/videos/roller 1.mp4"
+          }
         },
         "testimonial_Fdq7k8": {
           "type": "testimonial",
-          "settings": {}
+          "settings": {
+            "video": "shopify://files/videos/roller 2.mp4"
+          }
         },
         "testimonial_EKzUqa": {
           "type": "testimonial",
-          "settings": {}
+          "settings": {
+            "video": "shopify://files/videos/roller 3.mp4"
+          }
         },
         "testimonial_hiLAMj": {
           "type": "testimonial",
-          "settings": {}
+          "settings": {
+            "video": "shopify://files/videos/roller 4.mp4"
+          }
         }
       },
       "block_order": [
