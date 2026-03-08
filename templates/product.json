@@ -84,8 +84,8 @@
         "collapsible_text_Qt7ewM": {
           "type": "collapsible_text",
           "settings": {
-            "title": "Est ce que le Roller Anti-Chute & Repousse va fonctionner pour moi?",
-            "content": "<p>Oui — notre formule est conçue pour cibler les causes fréquentes de perte de densité : follicules affaiblis, zones clairsemées et manque de stimulation à la racine.</p>"
+            "title": "Est-ce que ça marche aussi pour les femmes ?",
+            "content": "<p><strong>Oui, absolument.</strong> Que vous soyez un homme ou une femme, vos racines ont besoin des mêmes nutriments pour pousser. Le Roller est efficace pour :</p><ul><li><strong>Les hommes :</strong> qui voient leurs golfes ou le sommet du crâne se garnir.</li><li><strong>Les femmes :</strong> qui perdent leurs cheveux à cause du stress, de la fatigue ou après une grossesse.</li></ul><p>Peu importe qui vous êtes, le produit cible la racine pour stopper la chute et relancer la machine.</p>"
           }
         },
         "collapsible_text_Mk8ECk": {
@@ -320,21 +320,6 @@
         "product_card_text_color": ""
       }
     },
-    "image_with_text_overlay_bLinYN": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#f0f0f0",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "timeline_QkWqDP": {
       "type": "timeline",
       "blocks": {
@@ -382,60 +367,6 @@
         "text_color": ""
       }
     },
-    "multiple_images_with_text_GVt7hW": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "item_gdNANm": {
-          "type": "item",
-          "settings": {
-            "image_rotation_degrees": 0,
-            "subheading": "",
-            "title": "Votre corps mérite une clarté absolue",
-            "content": "<p>Ne laissez plus le doute s'installer sur la propreté de vos oreilles lors de vos interactions sociales. <strong>Le Nettoyeur Olnara</strong> vous permet d'effectuer un check-up complet en quelques secondes. </p><p>C’est l’assurance d’une image impeccable et d'une sensation de fraîcheur que vous pouvez enfin vérifier par vous-même, sur votre écran.</p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        },
-        "item_q4ch6W": {
-          "type": "item",
-          "settings": {
-            "image_rotation_degrees": 2.5,
-            "subheading": "",
-            "title": "Finis les bouchons !",
-            "content": "<p>Les coton-tiges classiques tassent le cérumen au fond du conduit, créant des bouchons douloureux et une perte d'audition. Grâce à sa caméra intégrée et ses embouts souples, l<strong>e Nettoyeur Olnara</strong> permet de contourner les débris pour les extraire délicatement. </p><p>Retrouvez une clarté auditive immédiate dès la première utilisation.</p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        },
-        "item_LPTQ8t": {
-          "type": "item",
-          "settings": {
-            "image_rotation_degrees": 1.5,
-            "subheading": "",
-            "title": "Ne risquez plus vos tympans :",
-            "content": "<p>Nettoyer ses oreilles sans rien voir est un danger réel pour votre audition. <strong>Le Nettoyeur Olnara</strong> élimine toute incertitude en diffusant une image HD cristalline directement sur votre smartphone. </p><p>Vous ne devinez plus la position des impuretés : vous naviguez avec une précision totale pour un soin d’une sécurité absolue.</p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_gdNANm",
-        "item_q4ch6W",
-        "item_LPTQ8t"
-      ],
-      "name": "Multiple images with text",
-      "settings": {
-        "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
     "custom_liquid_M6acyA": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -469,9 +400,7 @@
     "text_with_icons_VEd48H",
     "video_slider_hNNCLQ",
     "related-products",
-    "image_with_text_overlay_bLinYN",
     "timeline_QkWqDP",
-    "multiple_images_with_text_GVt7hW",
     "custom_liquid_M6acyA",
     "custom_liquid_4z7Ma6"
   ]
