@@ -253,6 +253,42 @@
         "text_color": "#222222"
       }
     },
+    "impact_text_gFE3Gm": {
+      "type": "impact-text",
+      "blocks": {
+        "item_AjNBD7": {
+          "type": "item",
+          "settings": {
+            "title": "90 jours",
+            "subheading": "Satisfait ou remboursé, sans risque",
+            "content": "<p>Si vous ne constatez pas de diminution de la chute ou de nouvelles repousses visibles, nous vous remboursons intégralement. Pas de questions pièges, pas besoin de renvoyer le flacon.</p>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_AjNBD7"
+      ],
+      "name": "Impact text",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "#242446",
+        "background_gradient": "",
+        "heading_text_color": "#f2f2f2",
+        "heading_gradient": "",
+        "text_color": "#f2f2f2",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "video_slider_hNNCLQ": {
       "type": "video-slider",
       "blocks": {
@@ -398,6 +434,7 @@
     "main",
     "custom_liquid_3Wzxrj",
     "text_with_icons_VEd48H",
+    "impact_text_gFE3Gm",
     "video_slider_hNNCLQ",
     "related-products",
     "timeline_QkWqDP",
