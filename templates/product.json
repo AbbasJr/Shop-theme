@@ -335,6 +335,50 @@
         "overlay_opacity": 0
       }
     },
+    "timeline_QkWqDP": {
+      "type": "timeline",
+      "blocks": {
+        "slide_B36EXN": {
+          "type": "slide",
+          "settings": {
+            "navigation_label": "25 jours",
+            "subheading": "Les 3 premières semaines :",
+            "title": "Moins de cheveux sur l'oreiller",
+            "content": "<p>On commence par arrêter les dégâts. Le romarin et l'aminexil renforcent vos racines pour stopper la chute. </p><p>Rapidement, vous remarquerez que vos cheveux s'accrochent mieux : vous n'en retrouvez plus dans la douche ou sur l'oreiller le matin.</p>"
+          }
+        },
+        "slide_FPUADm": {
+          "type": "slide",
+          "settings": {
+            "navigation_label": "45 jours",
+            "subheading": "Au bout d'un mois et demi :",
+            "title": "Les cheveux repoussent",
+            "content": "<p>C'est là que la machine redémarre. Le Redensyl réveille vos racines qui ne poussaient plus. </p><p>En regardant de près dans le miroir, vous verrez de tout petits nouveaux cheveux (les baby hair) pointer le bout de leur nez sur vos zones dégarnies.</p>"
+          }
+        },
+        "slide_3dzw83": {
+          "type": "slide",
+          "settings": {
+            "navigation_label": "90 jours",
+            "subheading": "Après une cure :",
+            "title": "Appréciez votre belle chevelure",
+            "content": "<p>Le résultat final est là. Grâce à l'Anagain, vos nouveaux cheveux ont pris de l'épaisseur et de la force. </p><p>Les zones vides sont maintenant bien remplies, votre chevelure est plus dense et vous avez enfin retrouvé une vraie masse capillaire.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_B36EXN",
+        "slide_FPUADm",
+        "slide_3dzw83"
+      ],
+      "name": "Timeline",
+      "settings": {
+        "full_width": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "multiple_images_with_text_GVt7hW": {
       "type": "multiple-images-with-text",
       "blocks": {
@@ -423,6 +467,7 @@
     "video_slider_hNNCLQ",
     "related-products",
     "image_with_text_overlay_bLinYN",
+    "timeline_QkWqDP",
     "multiple_images_with_text_GVt7hW",
     "custom_liquid_M6acyA",
     "custom_liquid_4z7Ma6"
