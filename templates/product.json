@@ -55,13 +55,6 @@
             "liquid": "<style>\n  /* =========================================\n     1. VERSION MOBILE (Le design \"Timeline\")\n     ========================================= */\n  @media (max-width: 749px) {\n    .bw-benefits-grid { \n      display: flex !important; \n      flex-direction: column; \n      gap: 12px; \n      padding: 10px 15px; \n      position: relative; \n    }\n\n    .bw-benefits-grid::before {\n      content: '';\n      position: absolute;\n      top: 25px;\n      bottom: 25px;\n      left: 30px; \n      width: 2px;\n      background: #e5e7eb;\n      z-index: 0;\n    }\n    \n    .bw-benefit-card { \n      display: grid;\n      grid-template-columns: 30px 1fr; \n      grid-template-rows: auto auto;\n      column-gap: 12px;\n      text-align: left; \n      background: transparent; \n      border: none;\n      padding: 0;\n    }\n\n    .bw-benefit-icon { \n      grid-column: 1 / 2;\n      grid-row: 1 / 3;\n      width: 30px;\n      height: 30px;\n      border-radius: 50%;\n      border: 2px solid #272759; \n      background: #fff;\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      position: relative;\n      z-index: 1; \n      font-size: 13px; \n    }\n\n    .bw-benefit-icon img {\n      width: 14px; \n      height: auto;\n    }\n\n    .bw-benefit-title { \n      grid-column: 2 / 3;\n      grid-row: 1 / 2;\n      align-self: end;\n      font-size: 11px;    \n      font-weight: 900; \n      color: #272759; \n      margin-bottom: 2px; \n    }\n\n    .bw-benefit-desc { \n      grid-column: 2 / 3;\n      grid-row: 2 / 3;\n      align-self: start;\n      font-size: 9px;     \n      color: #4B5563; \n      line-height: 1.3; \n    }\n  }\n\n  /* =========================================\n     2. VERSION ORDINATEUR (Ton code initial)\n     ========================================= */\n  @media (min-width: 750px) {\n    .bw-benefits-grid { \n      display: grid !important; \n      grid-template-columns: repeat(3, 1fr); \n      gap: 5px;            \n      padding: 10px 0; \n      margin: 20px auto;    \n      max-width: 850px;     \n    }\n    \n    .bw-benefit-card { \n      text-align: center; \n      padding: 10px 4px;   \n      background: #fdfdfd; \n      border-radius: 5px; \n      border: 1px solid #f1f1f1;\n      transition: all 0.3s ease; \n    }\n\n    .bw-benefit-card:hover { \n      border-color: #D4AF37; \n      transform: translateY(-2px); \n    }\n\n    .bw-benefit-icon { \n      margin-bottom: 4px; \n      display: flex;\n      justify-content: center;\n    }\n\n    .bw-benefit-icon img {\n      width: 22px; \n      height: auto;\n    }\n\n    .bw-benefit-title { \n      font-size: 11px;      \n      font-weight: 700; \n      color: #1A1A1A; \n      margin-bottom: 4px; \n      text-transform: uppercase;\n      letter-spacing: 0.5px;\n    }\n\n    .bw-benefit-desc { \n      font-size: 10px;      \n      color: #4B5563; \n      line-height: 1.3; \n    }\n  }\n</style>\n\n<div class=\"bw-benefits-grid\">\n  <div class=\"bw-benefit-card\">\n    <div class=\"bw-benefit-icon\"><img src=\"https://cdn.shopify.com/s/files/1/0896/2916/3868/files/noun-hair-loss-7243334.png?v=1764437850\" alt=\"Icône\"></div>\n    <div class=\"bw-benefit-title\">Fini les cheveux dans le siphon</div>\n    <div class=\"bw-benefit-desc\">Moins de chute et de perte quotidienne</div>\n  </div>\n\n  <div class=\"bw-benefit-card\">\n    <div class=\"bw-benefit-icon\"><img src=\"https://cdn.shopify.com/s/files/1/0896/2916/3868/files/noun-hair-7257489_19925c64-16be-45c9-8d7a-46e2aec49e0b.png?v=1764437850\" alt=\"Icône\"></div>\n    <div class=\"bw-benefit-title\">Réveillez vos cheveux qui dorment</div>\n    <div class=\"bw-benefit-desc\">Premières améliorations visibles en 4 à 6 semaines</div>\n  </div>\n\n  <div class=\"bw-benefit-card\">\n    <div class=\"bw-benefit-icon\">🌱</div>\n    <div class=\"bw-benefit-title\">Retrouvez une masse visible</div>\n    <div class=\"bw-benefit-desc\">Chevelure visiblement plus épaisse et plus de densité</div>\n  </div>\n\n  <div class=\"bw-benefit-card\">\n    <div class=\"bw-benefit-icon\">🍃</div>\n    <div class=\"bw-benefit-title\">La puissance des plantes</div>\n    <div class=\"bw-benefit-desc\">Avec le romarin qui bloque la chute naturellement.</div>\n  </div>\n\n  <div class=\"bw-benefit-card\">\n    <div class=\"bw-benefit-icon\"><img src=\"https://cdn.shopify.com/s/files/1/0896/2916/3868/files/noun-target-8163795.png?v=1764437850\" alt=\"Icône\"></div>\n    <div class=\"bw-benefit-title\">Facile à utiliser</div>\n    <div class=\"bw-benefit-desc\">Ciblez directement vos zones dégarnies facilement.</div>\n  </div>\n\n  <div class=\"bw-benefit-card\">\n    <div class=\"bw-benefit-icon\"><img src=\"https://cdn.shopify.com/s/files/1/0896/2916/3868/files/noun-science-7778393.png?v=1764437849\" alt=\"Icône\"></div>\n    <div class=\"bw-benefit-title\">Sans effet secondaire</div>\n    <div class=\"bw-benefit-desc\">Formule saine sans risques pour l'organisme.</div>\n  </div>\n</div>"
           }
         },
-        "liquid_AXpM9k": {
-          "type": "liquid",
-          "name": "Benefiques PC",
-          "settings": {
-            "liquid": "<style>\n  /* Masqué par défaut sur Mobile */\n  .benefits-grid { \n    display: none; \n  }\n\n  /* Affiché uniquement sur Desktop (au-dessus de 750px) */\n  @media (min-width: 750px) {\n    .benefits-grid { \n      display: grid; \n      grid-template-columns: repeat(3, 1fr); \n      gap: 5px;            /* Écart réduit entre les carrés */\n      padding: 10px 0; \n      margin: 20px auto;    /* Centrage automatique */\n      max-width: 850px;     /* LARGEUR RÉDUITE : les carrés seront moins larges */\n    }\n    \n    .benefit-card { \n      text-align: center; \n      padding: 10px 4px;   /* PADDING RÉDUIT : les carrés seront moins hauts */\n      background: #fdfdfd; \n      border-radius: 5px; \n      border: 1px solid #f1f1f1;\n      transition: all 0.3s ease; \n    }\n\n    .benefit-card:hover { \n      border-color: #D4AF37; \n      transform: translateY(-2px); \n    }\n\n    .benefit-card__icon { \n      margin-bottom: 4px; \n      display: flex;\n      justify-content: center;\n    }\n\n    /* NOUVEAU : Réglage de la taille de ton image */\n    .benefit-card__icon img {\n      width: 22px; /* Modifie ce chiffre si tu veux l'image plus grande ou plus petite */\n      height: auto;\n    }\n\n    .benefit-card__title { \n      font-size: 11px;      /* Titre plus fin */\n      font-weight: 700; \n      color: #1A1A1A; \n      margin-bottom: 4px; \n      text-transform: uppercase;\n      letter-spacing: 0.5px;\n    }\n\n    .benefit-card__desc { \n      font-size: 10px;      /* Description plus petite */\n      color: #4B5563; \n      line-height: 1.3; \n    }\n  }\n</style>\n\n<div class=\"benefits-grid\">\n  <div class=\"benefit-card\">\n    <div class=\"benefit-card__icon\"><img src=\"https://cdn.shopify.com/s/files/1/0896/2916/3868/files/noun-hair-loss-7243334.png?v=1764437850\" alt=\"Icône\"></div>\n    <div class=\"benefit-card__title\">Fini les cheveux dans le siphon</div>\n    <div class=\"benefit-card__desc\">Moins de chute et de perte quotidienne</div>\n  </div>\n\n  <div class=\"benefit-card\">\n    <div class=\"benefit-card__icon\"><img src=\"https://cdn.shopify.com/s/files/1/0896/2916/3868/files/noun-hair-7257489_19925c64-16be-45c9-8d7a-46e2aec49e0b.png?v=1764437850\" alt=\"Icône\"></div>\n    <div class=\"benefit-card__title\">Réveillez vos cheveux qui dorment</div>\n    <div class=\"benefit-card__desc\">Premières améliorations visibles en 4 à 6 semaines</div>\n  </div>\n\n  <div class=\"benefit-card\">\n    <div class=\"benefit-card__icon\">🌱</div>\n    <div class=\"benefit-card__title\">Retrouvez une masse visible</div>\n    <div class=\"benefit-card__desc\">Chevelure visiblement plus épaisse et plus de densité</div>\n  </div>\n\n  <div class=\"benefit-card\">\n    <div class=\"benefit-card__icon\">🍃</div>\n    <div class=\"benefit-card__title\">La puissance des plantes</div>\n    <div class=\"benefit-card__desc\">Avec le romarin qui bloque la chute naturellement.</div>\n  </div>\n\n  <div class=\"benefit-card\">\n    <div class=\"benefit-card__icon\"><img src=\"https://cdn.shopify.com/s/files/1/0896/2916/3868/files/noun-target-8163795.png?v=1764437850\" alt=\"Icône\"></div>\n    <div class=\"benefit-card__title\">Facile à utiliser</div>\n    <div class=\"benefit-card__desc\">Ciblez directement vos zones dégarnies facilement.</div>\n  </div>\n\n  <div class=\"benefit-card\">\n    <div class=\"benefit-card__icon\"><img src=\"https://cdn.shopify.com/s/files/1/0896/2916/3868/files/noun-science-7778393.png?v=1764437849\" alt=\"Icône\"></div>\n    <div class=\"benefit-card__title\">Sans effet secondaire</div>\n    <div class=\"benefit-card__desc\">Formule saine sans risques pour l'organisme.</div>\n  </div>\n</div>"
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "disabled": true,
@@ -88,6 +81,34 @@
             "payment_button_text_color": "#272759"
           }
         },
+        "collapsible_text_Qt7ewM": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Est ce que le Roller Anti-Chute & Repousse va fonctionner pour moi?",
+            "content": "<p>Oui — notre formule est conçue pour cibler les causes fréquentes de perte de densité : follicules affaiblis, zones clairsemées et manque de stimulation à la racine.</p>"
+          }
+        },
+        "collapsible_text_Mk8ECk": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "En combien de temps vais je voir mes premiers résultats?",
+            "content": "<p>Les premiers signes (moins de chute / baby hairs) apparaissent au bout de <strong>3 à 4 semaines</strong>. Une utilisation continue pendant <strong>2 à 3 mois </strong>permet généralement d’obtenir une densité plus visible.<br/><br/>La régularité est la clé.</p>"
+          }
+        },
+        "collapsible_text_gy9UtV": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Est ce que le Roller est gras ou laisse des traces?",
+            "content": "<p>Non. La texture est légère, sèche rapidement et ne laisse ni film gras ni résidu visible, sur les cheveux comme sur la barbe.</p>"
+          }
+        },
+        "collapsible_text_QdkUFK": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "À quelle fréquence l'utiliser ?",
+            "content": "<p>Pour un résultat optimal, utilisez le roll-on deux fois par jour. Nous recommandons une application le matin pour toute la journée et le soir pour laisser les nutriments agir pendant votre sommeil, mais sa formule non grasse convient parfaitement à une utilisation matinale.</p>"
+          }
+        },
         "offer_GtW6Nz": {
           "type": "offer",
           "disabled": true,
@@ -112,10 +133,13 @@
         "payment_terms",
         "separator",
         "liquid_AqrJq4",
-        "liquid_AXpM9k",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "collapsible_text_Qt7ewM",
+        "collapsible_text_Mk8ECk",
+        "collapsible_text_gy9UtV",
+        "collapsible_text_QdkUFK",
         "offer_GtW6Nz"
       ],
       "custom_css": [],
@@ -148,67 +172,6 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "faq_FQEzMb": {
-      "type": "faq",
-      "blocks": {
-        "item_fUd6xJ": {
-          "type": "item",
-          "settings": {
-            "title": "Est ce le Roller Anti-Chute & Repousse va fonctionner pour moi?",
-            "content": "<p>Oui — notre formule est conçue pour cibler les causes fréquentes de perte de densité : follicules affaiblis, zones clairsemées et manque de stimulation à la racine.</p>"
-          }
-        },
-        "item_yzECtU": {
-          "type": "item",
-          "settings": {
-            "title": "En combien de temps vais je voir mes premiers résultats?",
-            "content": "<p>Les premiers signes (moins de chute / baby hairs) apparaissent au bout de <strong>3 à 4 semaines</strong>. Une utilisation continue pendant <strong>2 à 3 mois </strong>permet généralement d’obtenir une densité plus visible.<br/><br/>La régularité est la clé.</p>"
-          }
-        },
-        "item_apLRMd": {
-          "type": "item",
-          "settings": {
-            "title": "Est ce que le Roller est gras ou laisse des traces?",
-            "content": "<p>Non. La texture est légère, sèche rapidement et ne laisse ni film gras ni résidu visible, sur les cheveux comme sur la barbe.</p>"
-          }
-        },
-        "item_8bTrxE": {
-          "type": "item",
-          "settings": {
-            "title": "À quelle fréquence l'utiliser ?",
-            "content": "<p>Pour un résultat optimal, utilisez le roll-on deux fois par jour. Nous recommandons une application le matin pour toute la journée et le soir pour laisser les nutriments agir pendant votre sommeil, mais sa formule non grasse convient parfaitement à une utilisation matinale.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_fUd6xJ",
-        "item_yzECtU",
-        "item_apLRMd",
-        "item_8bTrxE"
-      ],
-      "name": "FAQ",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "team_avatar_width": 160,
-        "support_hours": "",
-        "answer_time": "",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
       }
     },
     "text_with_icons_VEd48H": {
@@ -444,7 +407,6 @@
   "order": [
     "main",
     "custom_liquid_3Wzxrj",
-    "faq_FQEzMb",
     "text_with_icons_VEd48H",
     "video_slider_hNNCLQ",
     "related-products",
