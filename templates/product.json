@@ -341,6 +341,7 @@
         "slide_B36EXN": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/syphon.jpg",
             "navigation_label": "25 jours",
             "subheading": "Les 3 premières semaines :",
             "title": "Moins de cheveux sur l'oreiller",
@@ -350,6 +351,7 @@
         "slide_FPUADm": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/Thairapy_-_2025-11-22T155144.973_bc3046d4-d8ca-4a64-a1a5-775145cc7ea4.png",
             "navigation_label": "45 jours",
             "subheading": "Au bout d'un mois et demi :",
             "title": "Les cheveux repoussent",
@@ -359,6 +361,7 @@
         "slide_3dzw83": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/164c08e3d63fd081e728a6f4dbb9cde0.jpg",
             "navigation_label": "90 jours",
             "subheading": "Après une cure :",
             "title": "Appréciez votre belle chevelure",
