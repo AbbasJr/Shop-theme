@@ -181,52 +181,56 @@
           "type": "item",
           "settings": {
             "icon": "picto-camera",
-            "mobile_icon_width": 24,
-            "icon_width": 24,
+            "custom_icon": "shopify://shop_images/gempages_575028120009048863-f653f250-0dae-4dea-9562-771d74ce72ff_3dd1157a-5a29-4f50-942a-534799f753a3.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Vision HD Intégrée",
-            "content": "<p>Visualisez votre conduit en temps réel. Fini le nettoyage à l'aveugle, protégez vos tympans. </p>"
+            "title": "Romarin",
+            "content": "<p><em>(ciblage)</em></p><p>Stimule la micro-circulation, aide à bloquer la DHT responsable de la chute, et favorise l’apparition de nouveaux cheveux <br/><strong>Concentration : 3% / 25 ml</strong></p>"
           }
         },
         "item_KBDUkR": {
           "type": "item",
           "settings": {
             "icon": "picto-love",
-            "mobile_icon_width": 24,
-            "icon_width": 24,
+            "custom_icon": "shopify://shop_images/gempages_575028120009048863-45274b77-05b8-46cd-9e14-e021d1c052cc.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Hygiène Familiale Totale",
-            "content": "<p>Un embout neuf pour chacun : toute la famille profite d'une hygiène parfaite, sans aucun risque de partage de bactéries. </p>"
+            "title": "Redensyl®",
+            "content": "<p><em>(réactivation)</em></p><p>Réveille les follicules dormants, accélère la croissance de nouveaux cheveux et améliore la densité globale.<br/><strong>Concentration : 3% / 25 ml</strong></p>"
           }
         },
         "item_dRtcgA": {
           "type": "item",
           "settings": {
             "icon": "picto-leaf",
-            "mobile_icon_width": 24,
-            "icon_width": 24,
+            "custom_icon": "shopify://shop_images/gempages_575028120009048863-ba586dda-9caf-4ee3-a68a-981f5da52808.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Silicone Médical Souple",
-            "content": "<p>L'embout ultra-doux en matériaux premium respecte votre sensibilité pour un soin précis, sans douleur ni irritation.</p>"
+            "title": "Aminexil®",
+            "content": "<p><em>(renforcement)</em></p><p>Réduit l’accumulation de collagène autour des follicules, diminue la chute et améliore l’ancrage du cheveu dans le cuir chevelu.<br/><strong>Concentration : 2% / 25 ml</strong></p>"
           }
         },
         "item_XQJjnL": {
           "type": "item",
           "settings": {
             "icon": "picto-mask",
-            "mobile_icon_width": 24,
-            "icon_width": 24,
+            "custom_icon": "shopify://shop_images/gempages_575028120009048863-4ee19abe-ca70-4bed-8417-347b43df461f.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Qualité Professionnelle",
-            "content": "<p>La technologie ORL dans votre salle de bain. Un investissement durable pour une santé auditive parfaite. </p>"
+            "title": "Anagain®",
+            "content": "<p><em>(croissance)</em></p><p>Prolonge la phase de croissance (anagène), limite la chute et aide à faire repousser des cheveux dans les zones clairsemées.<br/><strong>Concentration : 2% / 25 ml</strong></p>"
           }
         }
       },
@@ -240,13 +244,13 @@
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
-        "title": "",
-        "heading_tag": "h5",
+        "title": "Composition du Roller Anti-Chute & Repousse",
+        "heading_tag": "h6",
         "text_alignment": "center",
         "icon_spacing": "medium",
-        "background": "#272759",
+        "background": "#ffffff",
         "background_gradient": "",
-        "text_color": "#f2f2f2"
+        "text_color": "#222222"
       }
     },
     "video_slider_hNNCLQ": {
