@@ -265,7 +265,7 @@
             "button_text": "",
             "button_url": "",
             "animate_impact_text": false,
-            "animate_impact_text_duration": 2
+            "animate_impact_text_duration": 5
           }
         }
       },
