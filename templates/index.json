@@ -15,16 +15,14 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Design_sans_titre_1_08ccf42d-d324-47cc-8dff-72ba4a38f6dd.jpg",
-            "mobile_image": "shopify://shop_images/nano-banana-1771929068537.png",
             "content_max_width": 600,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "subheading": "Dites adieu à l'angoisse du geste de trop et au risque de vous blesser avec notre solution Nettoyeur d'Oreille Connecté.",
-            "title": "Prenez soin de vos oreilles",
+            "subheading": "",
+            "title": "Dites adieux à la calvitie !",
             "heading_tag": "h3",
-            "button_text": "DÉCOUVRIR NOTRE NETTOYEUR",
-            "button_link": "shopify://products/nettoyeur-doreilles-connecte",
+            "button_text": "DÉCOUVRIR NOTRE ROLLER",
+            "button_link": "shopify://products/roller-anti-chute-repousse",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#222222",
@@ -201,7 +199,6 @@
         "item_RFWbmJ": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Benefice_2_app.jpg",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "Best-Seller : Le Nettoyeur d'Oreilles",
