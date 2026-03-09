@@ -64,7 +64,7 @@
         "show_country_flag": true,
         "show_country_name": false,
         "transparent_header_text_color": "#f2f2f2",
-        "transparent_logo": "shopify://shop_images/OLNARA_noir_logo_1.png",
+        "transparent_logo": "shopify://shop_images/OLNARA_blanc_logo_1.png",
         "reduce_padding": false,
         "background_opacity": 100,
         "background_blur_radius": 0
