@@ -166,8 +166,8 @@
         "1664424181b38582d5-0": {
           "type": "item",
           "settings": {
-            "title": "+500",
-            "subheading": "familles l'ont integré à leur quotidien !",
+            "title": "+300",
+            "subheading": "utilisateurs ont vu une repousse importante en une cure",
             "content": "",
             "button_text": "",
             "button_url": "",
@@ -201,10 +201,11 @@
         "item_RFWbmJ": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/ultats-en-90-jours-ou-rembours195169.jpg",
             "image_rotation_degrees": -2,
             "subheading": "",
-            "title": "Best-Seller : Le Nettoyeur d'Oreilles",
-            "content": "<p>Chaque coup de coton-tige à l'aveugle pousse le cérumen contre votre tympan et risque de le perforer. Arrêtez de jouer avec votre audition. Le Nettoyeur Olnara apporte enfin la lumière en HD : voyez ce que vous faites, extrayez la saleté sans douleur et protégez votre famille des infections.</p>",
+            "title": "Contre la perte de cheveux",
+            "content": "<p><br/>Au revoir les cheveux sur l'oreiller. Notre formule cliniquement étudiée bloque la chute et stimule une repousse forte pour une chevelure transformée en 90 jours.</p><p>Notre roller prévient les alopécies, ralentit la chute et relance le cycle des cheveux.<br/><br/></p>",
             "button_url": "",
             "button_text": ""
           }
